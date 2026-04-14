@@ -61,7 +61,9 @@ python main_unified.py
 
 The toolkit automatically calculates the maximum number of allowed frames (N) based on the patch-grid formula:
 
-Tokens = N * ((Width_28 / 28) * (Height_28 / 28))
+$$
+Tokens = N \times \left(\frac{Width}{28} \times \frac{Height}{28}\right)
+$$
 
 Note:  
 - Dimensions are automatically rounded to the nearest multiple of 28  
