@@ -1,3 +1,4 @@
+
 # Video Data Reduction Toolkit
 
 A unified library of data preparation strategies designed for training Vision-Language Models (VLM) like Qwen2-VL-7B.
@@ -18,6 +19,8 @@ Everything is managed by the central orchestrator `main_unified.py`, which trigg
 
 - algo_scene_aware/  
   Scene-cut detection to ensure each shot is represented.
+
+  <img width="596" height="445" alt="frame_selection_viz" src="https://github.com/user-attachments/assets/cd91482b-5ea8-47db-b918-2a43f83e4f93" />
 
 - algo_semantic_keyframe/  
   CLIP embeddings + K-Means clustering to remove visual redundancy.
