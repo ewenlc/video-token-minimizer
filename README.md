@@ -13,7 +13,7 @@ Everything is managed by the central orchestrator `main_unified.py`, which trigg
 - algo_uniform/  
   Standard temporal sampling at fixed intervals.
 
-  <img width="1192" height="890" alt="frame_selection_uniform_viz" src="https://github.com/user-attachments/assets/fcf3bf2c-3455-426f-ae17-e287627e7799" />
+  <img width="596" height="445" alt="frame_selection_uniform_viz" src="https://github.com/user-attachments/assets/fcf3bf2c-3455-426f-ae17-e287627e7799" />
 
 
 - algo_scene_aware/  
