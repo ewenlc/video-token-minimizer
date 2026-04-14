@@ -92,10 +92,3 @@ Note:
 
 ## Strategy Comparison
 
-Strategy | Strength | Ideal Use Case  
-Uniform | Simple & Fast | Videos with consistent motion  
-Scene Aware | Accuracy | Edited videos or clips with many cuts  
-Semantic | Diversity | Removing near-identical frames  
-Spatial Crop | Precision | Fine-tuning on specific actions/objects  
-Mixte (Hybrid) | Balanced | General-purpose optimization  
-"""
