@@ -25,14 +25,27 @@ Everything is managed by the central orchestrator `main_unified.py`, which trigg
 - algo_semantic_keyframe/  
   CLIP embeddings + K-Means clustering to remove visual redundancy.
 
+  <img width="663" height="299" alt="semantic_space_viz" src="https://github.com/user-attachments/assets/c3480dfe-af6b-4973-9663-914e81957e07" />
+  <img width="596" height="445" alt="frame_selection_semantic_viz" src="https://github.com/user-attachments/assets/b38a2706-52a1-4ff1-a35a-b37cad682507" />
+
+
 - algo_semantic_spatial_crop/  
   YOLOv8-based detection to crop and focus on specific subjects (e.g., people).
+
+  <img width="596" height="445" alt="frame_selection_yolo_crop_viz" src="https://github.com/user-attachments/assets/c64a07af-8e27-4d8a-a18d-be4406b0c56e" />
+  
 
 - algo_spatial_uniform/  
   Dynamic resolution adjustment to fit more frames into the budget.
 
+  <img width="596" height="445" alt="frame_selection_spatial_320x180_viz" src="https://github.com/user-attachments/assets/775b60a1-b757-4b99-912b-e8102a428a4d" />
+
+
 - algo_mixte_scene_and_semantic/  
   A hybrid approach combining scene detection and semantic filtering.
+
+  <img width="596" height="445" alt="frame_selection_scene_semantic_viz" src="https://github.com/user-attachments/assets/52f9fa39-f594-421c-b29e-06d235d2865c" />
+
 
 ---
 
