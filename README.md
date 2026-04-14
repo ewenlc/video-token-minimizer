@@ -1,4 +1,4 @@
-# V-Datarov: Video Data Reduction Toolkit
+# Video Data Reduction Toolkit
 
 A unified library of data preparation strategies designed for training Vision-Language Models (VLM) like Qwen2-VL-7B.
 
