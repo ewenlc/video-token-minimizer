@@ -32,9 +32,10 @@ Everything is managed by the central orchestrator `main_unified.py`, which trigg
 
 ## Installation
 
-# Core dependencies  
+# Core dependencies 
+```bash
 pip install torch torchvision ultralytics transformers scenedetect opencv-python scikit-learn matplotlib pillow
-
+```
 ---
 
 ## How to use
@@ -43,13 +44,16 @@ All configurations are handled within `main_unified.py`.
 
 Simply modify the `STRATEGIE_CHOISIE` variable to test different approaches:
 
-# Inside main_unified.py  
+# Inside main_unified.py 
+```bash
 STRATEGIE_CHOISIE = "mixte_scene_and_semantic"  
 TOKEN_BUDGET = 5350  # Adjust based on your GPU VRAM  
+```
 
 Run the extraction:
-
+```bash
 python main_unified.py
+```
 
 ---
 
